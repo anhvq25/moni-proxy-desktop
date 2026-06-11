@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Sparkle appcast for Moni Proxy (macOS auto-update).
+
+  Served by GitHub Pages at:
+    https://anhvq25.github.io/moni-proxy-desktop/appcast.xml
+  (the URL set in macos/Runner/Info.plist -> SUFeedURL).
+
+  Each release appends an <item> below the "ITEMS" marker. Use
+  macos/packaging/sparkle_release.sh to sign the DMG + generate the item,
+  then commit/push this file so GitHub Pages publishes it.
+
+  It starts empty (no <item>) - Sparkle reports "no update" until the
+  first real release item is added.
+-->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Moni Proxy</title>
+    <link>https://anhvq25.github.io/moni-proxy-desktop/appcast.xml</link>
+    <description>Moni Proxy macOS updates</description>
+    <language>en</language>
+    <!-- ITEMS -->
+  </channel>
+</rss>
