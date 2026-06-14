@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  Local working copy of the Sparkle appcast. After each release, copy this
+  file to the root of the distribution repo (anhvq25/moni-proxy-desktop)
+  and push so GitHub Pages serves it at
+  https://anhvq25.github.io/moni-proxy-desktop/appcast.xml
+-->
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Moni Proxy</title>
@@ -6,5 +12,26 @@
     <description>Moni Proxy macOS updates</description>
     <language>en</language>
     <!-- ITEMS -->
+    <item>
+      <title>Version 1.1.0</title>
+      <pubDate>Sun, 14 Jun 2026 01:14:45 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>What's new in 1.1.0</h3>
+        <ul>
+          <li>Premium: web licenses (buy on the web, redeem in-app) plus the new Premium page and titlebar status pill.</li>
+          <li>Inspector: response/request body now scrolls horizontally and is fully selectable in both JSON and Raw views.</li>
+          <li>Inspector: image URLs in a response show inline thumbnail previews — tap to view full size.</li>
+          <li>Feature gates: consistent Pro limits across desktop (rules, scripting, compose, exports).</li>
+          <li>Auto-update reliability and various fixes.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.1.0/Moni-Proxy.dmg"
+                 sparkle:edSignature="7/zTTlHW96SariuCcmKirofg5G3d5QvysnkL7zT6izkgnl+wc3++qneZMn0vfBwbiRio/AV1rSZXDPDtLbFtAQ=="
+                 length="40295720"
+                 type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
