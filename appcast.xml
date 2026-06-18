@@ -6,22 +6,22 @@
     <description>Moni Proxy macOS updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.2.0</title>
-      <pubDate>Thu, 18 Jun 2026 04:01:25 +0000</pubDate>
-      <sparkle:version>32</sparkle:version>
-      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <title>Version 1.2.1</title>
+      <pubDate>Thu, 18 Jun 2026 05:29:24 +0000</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <sparkle:criticalUpdate />
       <description><![CDATA[
-        <h3>What's new in 1.2.0</h3>
+        <h3>What's new in 1.2.1</h3>
         <ul>
-          <li>Native macOS windows for Certificate, Connect Device and Tools — they open instantly and feel right at home. Find them in the new Certificate / Connect / Tools menus in the menu bar.</li>
-          <li>Connect an iOS Simulator in one click (installs the CA + sets the system proxy).</li>
-          <li>iOS / Android setup guides with QR codes, AirDrop and emulator support.</li>
-          <li>Reliability and polish across certificate install and device connect.</li>
+          <li>Fixed the macOS certificate showing "Installed & Trusted" when it wasn't actually installed yet.</li>
+          <li>Revoke now prompts for your keychain password and removes the certificate so you can reinstall it cleanly.</li>
+          <li>Installing the cert into an iOS Simulator now restarts it so running apps trust it, with clear Installed / Connected states.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.0/Moni-Proxy.dmg"
-                 sparkle:edSignature="FMwtTH/V6lVUydvZELWfiKJvvnhZRFj0Oo+bLLRI/LDfiYlhmDpnsPef0hN0qS7Zx1I1r8mPgQvX1zIKb+bWAw==" length="42787940"
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.1/Moni-Proxy.dmg"
+                 sparkle:edSignature="9ql7vzvci95+zoZkS1lHEFqbFXHcREc1HF8v5ctJWQnMd31CCJrCCS2+0vVo6okKK+k1Rt7vQ+aom/zMbncJBA==" length="42884519"
                  type="application/octet-stream" />
     </item>
   </channel>
