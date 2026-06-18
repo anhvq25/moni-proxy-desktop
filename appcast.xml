@@ -6,22 +6,20 @@
     <description>Moni Proxy macOS updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.2.1</title>
-      <pubDate>Thu, 18 Jun 2026 05:29:24 +0000</pubDate>
-      <sparkle:version>33</sparkle:version>
-      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <title>Version 1.2.2</title>
+      <pubDate>Thu, 18 Jun 2026 05:49:14 +0000</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-      <sparkle:criticalUpdate />
       <description><![CDATA[
-        <h3>What's new in 1.2.1</h3>
+        <h3>What's new in 1.2.2</h3>
         <ul>
-          <li>Fixed the macOS certificate showing "Installed & Trusted" when it wasn't actually installed yet.</li>
-          <li>Revoke now prompts for your keychain password and removes the certificate so you can reinstall it cleanly.</li>
-          <li>Installing the cert into an iOS Simulator now restarts it so running apps trust it, with clear Installed / Connected states.</li>
+          <li>All developer tools now live in a single Tools menu in the macOS menu bar, each opening its own native window: Encoder, JSON Formatter, JWT Decoder, QR Code, Timestamp, RegExp, AES, and Certificate Info.</li>
+          <li>Removed the duplicate in-app Toolbox to keep things in one place.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.1/Moni-Proxy.dmg"
-                 sparkle:edSignature="9ql7vzvci95+zoZkS1lHEFqbFXHcREc1HF8v5ctJWQnMd31CCJrCCS2+0vVo6okKK+k1Rt7vQ+aom/zMbncJBA==" length="42884519"
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.2/Moni-Proxy.dmg"
+                 sparkle:edSignature="/tG2n2H9kE0tFJkTGLY8RmeYNVHPHHAGAFdcU+w51iaHzNKtutXxePBj66MYwVx2qTNDylDHEsoQ/xK60mvYBA==" length="43028320"
                  type="application/octet-stream" />
     </item>
   </channel>
