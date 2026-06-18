@@ -6,21 +6,22 @@
     <description>Moni Proxy macOS updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.1.2</title>
-      <pubDate>Wed, 17 Jun 2026 10:40:25 +0000</pubDate>
-      <sparkle:version>31</sparkle:version>
-      <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+      <title>Version 1.2.0</title>
+      <pubDate>Thu, 18 Jun 2026 04:01:25 +0000</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h3>What's new in 1.1.2</h3>
+        <h3>What's new in 1.2.0</h3>
         <ul>
-          <li>Fixed connecting an iOS Simulator setting the system proxy on the wrong (inactive) network service — it now targets the interface actually in use, so simulator traffic is captured reliably.</li>
-          <li>Cleaner connect UI — disconnect is now inline on the active simulator row.</li>
-          <li>Stability improvements.</li>
+          <li>Native macOS windows for Certificate, Connect Device and Tools — they open instantly and feel right at home. Find them in the new Certificate / Connect / Tools menus in the menu bar.</li>
+          <li>Connect an iOS Simulator in one click (installs the CA + sets the system proxy).</li>
+          <li>iOS / Android setup guides with QR codes, AirDrop and emulator support.</li>
+          <li>Reliability and polish across certificate install and device connect.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.1.2/Moni-Proxy.dmg"
-                 sparkle:edSignature="TuctJLgIJxpyjODCOIIUFZ+OdZ3e/jv5Mt3DN7rqtmneNSK4gH1w+lnoMafASCs6vnUr/C9GiOVjUrJOcSmlDA==" length="42727175"
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.0/Moni-Proxy.dmg"
+                 sparkle:edSignature="FMwtTH/V6lVUydvZELWfiKJvvnhZRFj0Oo+bLLRI/LDfiYlhmDpnsPef0hN0qS7Zx1I1r8mPgQvX1zIKb+bWAw==" length="42787940"
                  type="application/octet-stream" />
     </item>
   </channel>
