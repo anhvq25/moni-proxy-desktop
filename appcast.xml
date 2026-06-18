@@ -2,24 +2,14 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Moni Proxy</title>
-    <link>https://anhvq25.github.io/moni-proxy-desktop/appcast.xml</link>
-    <description>Moni Proxy macOS updates</description>
-    <language>en</language>
     <item>
-      <title>Version 1.2.2</title>
-      <pubDate>Thu, 18 Jun 2026 05:49:14 +0000</pubDate>
-      <sparkle:version>34</sparkle:version>
-      <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+      <title>Version 1.2.3</title>
+      <pubDate>Thu, 18 Jun 2026 10:28:48 +0000</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[
-        <h3>What's new in 1.2.2</h3>
-        <ul>
-          <li>All developer tools now live in a single Tools menu in the macOS menu bar, each opening its own native window: Encoder, JSON Formatter, JWT Decoder, QR Code, Timestamp, RegExp, AES, and Certificate Info.</li>
-          <li>Removed the duplicate in-app Toolbox to keep things in one place.</li>
-        </ul>
-      ]]></description>
-      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.2/Moni-Proxy.dmg"
-                 sparkle:edSignature="/tG2n2H9kE0tFJkTGLY8RmeYNVHPHHAGAFdcU+w51iaHzNKtutXxePBj66MYwVx2qTNDylDHEsoQ/xK60mvYBA==" length="43028320"
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.3/Moni-Proxy.dmg"
+                 sparkle:edSignature="6IGCbWktwMJWzAzrMrluYgLk9u/gPXqF+f1nhPgBwiBahNAv/9Kbb0G9EB0yYa9z9Hwyd69wHPlHHktrynM5Ag==" length="43047335"
                  type="application/octet-stream" />
     </item>
   </channel>
