@@ -3,13 +3,13 @@
   <channel>
     <title>Moni Proxy</title>
     <item>
-      <title>Version 1.2.6</title>
-      <pubDate>Fri, 19 Jun 2026 15:07:06 +0000</pubDate>
-      <sparkle:version>38</sparkle:version>
-      <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
+      <title>Version 1.2.7</title>
+      <pubDate>Sun, 21 Jun 2026 04:57:51 +0000</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.6/Moni-Proxy.dmg"
-                 sparkle:edSignature="TFwJ+9cVoTwESO8xtgUw7/CRxaEU83aPFh1VitgKo0uIjYE53LQO4QBosXeywH+bO2fwke87zgCNVeEbZ8SSCA==" length="43044732"
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.7/Moni-Proxy.dmg"
+                 sparkle:edSignature="skjrcl3anrjCimPgOlrRhSbSJmHkSC4MXngzVXp9r/zTkmu4th1lwv1RSP/dNjFZuVd8C+Gf0bbm8i/VN8cvBg==" length="43128360"
                  type="application/octet-stream" />
     </item>
   </channel>
