@@ -2,14 +2,15 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Moni Proxy</title>
+    <!-- ITEMS -->
     <item>
-      <title>Version 1.2.7</title>
-      <pubDate>Sun, 21 Jun 2026 04:57:51 +0000</pubDate>
-      <sparkle:version>39</sparkle:version>
-      <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
+      <title>Version 1.2.8</title>
+      <pubDate>Sun, 21 Jun 2026 15:07:24 +0000</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>1.2.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.7/Moni-Proxy.dmg"
-                 sparkle:edSignature="skjrcl3anrjCimPgOlrRhSbSJmHkSC4MXngzVXp9r/zTkmu4th1lwv1RSP/dNjFZuVd8C+Gf0bbm8i/VN8cvBg==" length="43128360"
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.8/Moni-Proxy.dmg"
+                 sparkle:edSignature="YdLzXtkPjBgP36evcSZ6JBSKThMis0LC2uJrOsjethBlDxXRFWYxW7lyH4wdU49o4eS4W5ysh6cX8FgXbptoDw==" length="43247755"
                  type="application/octet-stream" />
     </item>
   </channel>
