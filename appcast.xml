@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  Local working copy of the Sparkle appcast. After each release, copy this
+  file to the root of the distribution repo (anhvq25/moni-proxy-desktop)
+  and push so GitHub Pages serves it at
+  https://anhvq25.github.io/moni-proxy-desktop/appcast.xml
+-->
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Moni Proxy</title>
+    <link>https://anhvq25.github.io/moni-proxy-desktop/appcast.xml</link>
+    <description>Moni Proxy macOS updates</description>
+    <language>en</language>
     <!-- ITEMS -->
+    <item>
+      <title>Version 1.3.1</title>
+      <pubDate>Wed, 24 Jun 2026 04:20:34 +0000</pubDate>
+      <sparkle:version>56</sparkle:version>
+      <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.3.1/Moni-Proxy.dmg"
+                 sparkle:edSignature="1Ns8DHvAnMdzVPYkkGo5TfZ8P9J7tTQR8md/df8F+2sTTzjMnvDy2h+edNVOZ8PL381hoXqyD8q8LSnBaq9SAw==" length="43188036"
+                 type="application/octet-stream" />
+    </item>
     <item>
       <title>Version 1.3.0</title>
       <pubDate>Mon, 22 Jun 2026 09:10:33 +0000</pubDate>
@@ -11,6 +30,157 @@
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.3.0/Moni-Proxy.dmg"
                  sparkle:edSignature="QUEsMf7yokTaI1BxLrBXrOMo+0/a8eBm+3LFhjU10D7gkadtFkmdsIncNtQnxWKVm+C8W1HEYS87eBkn6Ek9CA==" length="43168217"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.2.9</title>
+      <pubDate>Mon, 22 Jun 2026 07:00:05 +0000</pubDate>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>1.2.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.9/Moni-Proxy.dmg"
+                 sparkle:edSignature="OK4kFaMqpxr0OQrld2TX7EazVaboshstZZqvMToC8VQpn+zmNANhAA2IgUoEOorp7DJnccAS23QQ/t3nLOoeAg==" length="43253013"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.2.8</title>
+      <pubDate>Sun, 21 Jun 2026 15:07:24 +0000</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>1.2.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.8/Moni-Proxy.dmg"
+                 sparkle:edSignature="YdLzXtkPjBgP36evcSZ6JBSKThMis0LC2uJrOsjethBlDxXRFWYxW7lyH4wdU49o4eS4W5ysh6cX8FgXbptoDw==" length="43247755"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.2.7</title>
+      <pubDate>Sun, 21 Jun 2026 04:57:51 +0000</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.7/Moni-Proxy.dmg"
+                 sparkle:edSignature="skjrcl3anrjCimPgOlrRhSbSJmHkSC4MXngzVXp9r/zTkmu4th1lwv1RSP/dNjFZuVd8C+Gf0bbm8i/VN8cvBg==" length="43128360"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.2.6</title>
+      <pubDate>Fri, 19 Jun 2026 15:07:06 +0000</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.6/Moni-Proxy.dmg"
+                 sparkle:edSignature="TFwJ+9cVoTwESO8xtgUw7/CRxaEU83aPFh1VitgKo0uIjYE53LQO4QBosXeywH+bO2fwke87zgCNVeEbZ8SSCA==" length="43044732"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.2.5</title>
+      <pubDate>Fri, 19 Jun 2026 09:15:54 +0000</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.5/Moni-Proxy.dmg"
+                 sparkle:edSignature="9gf9PMc0d06GTEXP0l3XUtj6jWbalwTTGrwt2Pt75peTBFQDiPf4hZSi9Iso3sCunMjef9g22sQcjso1iPvqDQ==" length="43043892"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.2.4</title>
+      <pubDate>Fri, 19 Jun 2026 01:05:49 +0000</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.4/Moni-Proxy.dmg"
+                 sparkle:edSignature="xIB+nxPABO6NDpWgVvImtvaLXNQjEh4BZTF6rSUnVNlxA2Njpvir9qrEGWDjSV1cbXgSYYHUphvWDvp06HyRAA==" length="43046780"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.2.3</title>
+      <pubDate>Thu, 18 Jun 2026 10:28:48 +0000</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.3/Moni-Proxy.dmg"
+                 sparkle:edSignature="6IGCbWktwMJWzAzrMrluYgLk9u/gPXqF+f1nhPgBwiBahNAv/9Kbb0G9EB0yYa9z9Hwyd69wHPlHHktrynM5Ag==" length="43047335"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.2.2</title>
+      <pubDate>Thu, 18 Jun 2026 05:49:14 +0000</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.2/Moni-Proxy.dmg"
+                 sparkle:edSignature="/tG2n2H9kE0tFJkTGLY8RmeYNVHPHHAGAFdcU+w51iaHzNKtutXxePBj66MYwVx2qTNDylDHEsoQ/xK60mvYBA==" length="43028320"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.2.1</title>
+      <pubDate>Thu, 18 Jun 2026 05:29:24 +0000</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <sparkle:criticalUpdate />
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.1/Moni-Proxy.dmg"
+                 sparkle:edSignature="9ql7vzvci95+zoZkS1lHEFqbFXHcREc1HF8v5ctJWQnMd31CCJrCCS2+0vVo6okKK+k1Rt7vQ+aom/zMbncJBA==" length="42884519"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.2.0</title>
+      <pubDate>Thu, 18 Jun 2026 04:01:25 +0000</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.2.0/Moni-Proxy.dmg"
+                 sparkle:edSignature="FMwtTH/V6lVUydvZELWfiKJvvnhZRFj0Oo+bLLRI/LDfiYlhmDpnsPef0hN0qS7Zx1I1r8mPgQvX1zIKb+bWAw==" length="42787940"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.1.2</title>
+      <pubDate>Wed, 17 Jun 2026 10:40:25 +0000</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.1.2/Moni-Proxy.dmg"
+                 sparkle:edSignature="TuctJLgIJxpyjODCOIIUFZ+OdZ3e/jv5Mt3DN7rqtmneNSK4gH1w+lnoMafASCs6vnUr/C9GiOVjUrJOcSmlDA==" length="42727175"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.1.1</title>
+      <pubDate>Wed, 17 Jun 2026 03:07:51 +0000</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>What's new in 1.1.1</h3>
+        <ul>
+          <li>Certificate: a cleaner in-app "Install &amp; Trust" guide for the macOS CA, with a one-click install and a manual fallback.</li>
+          <li>Fixed the certificate trust status sometimes showing "not trusted" right after a successful install.</li>
+          <li>System proxy no longer shows an admin password prompt every time you toggle it on/off.</li>
+          <li>Stability fixes around certificate installation.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.1.1/Moni-Proxy.dmg"
+                 sparkle:edSignature="/+oemHvOcCD49QQpOKbLT50wkpk6Jg6834riHIzCRyVV/7SM7ZHl3CD5g0eLK+QIygkmiMFAOor4FNo+TacjBg==" length="40227268"
+                 type="application/octet-stream" />
+    </item>
+    <item>
+      <title>Version 1.1.0</title>
+      <pubDate>Sun, 14 Jun 2026 01:14:45 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>What's new in 1.1.0</h3>
+        <ul>
+          <li>Premium: web licenses (buy on the web, redeem in-app) plus the new Premium page and titlebar status pill.</li>
+          <li>Inspector: response/request body now scrolls horizontally and is fully selectable in both JSON and Raw views.</li>
+          <li>Inspector: image URLs in a response show inline thumbnail previews — tap to view full size.</li>
+          <li>Feature gates: consistent Pro limits across desktop (rules, scripting, compose, exports).</li>
+          <li>Auto-update reliability and various fixes.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.1.0/Moni-Proxy.dmg"
+                 sparkle:edSignature="7/zTTlHW96SariuCcmKirofg5G3d5QvysnkL7zT6izkgnl+wc3++qneZMn0vfBwbiRio/AV1rSZXDPDtLbFtAQ=="
+                 length="40295720"
                  type="application/octet-stream" />
     </item>
   </channel>
