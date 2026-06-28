@@ -10,6 +10,24 @@
     <title>Moni Proxy</title>
     <link>https://anhvq25.github.io/moni-proxy-desktop/appcast.xml</link>
     <description>Moni Proxy macOS updates</description>
+    <item>
+      <title>Version 1.3.4</title>
+      <pubDate>Sun, 28 Jun 2026 15:26:26 +0000</pubDate>
+      <sparkle:version>60</sparkle:version>
+      <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>What's new in 1.3.4</h3>
+        <ul>
+          <li>Map Local / mock fixed for HTTPS &amp; GraphQL — mocking a response no longer breaks the page; CORS preflights are left intact and mocks are scoped to the right GraphQL operation; HTTP/2 responses encode correctly.</li>
+          <li>Redesigned Breakpoints — one in-app screen (queued list + full editor with a checkbox header table and a large resizable, pretty-printable body) instead of stacked pop-up windows.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.3.4/Moni-Proxy.dmg"
+                 sparkle:edSignature="LPUiPCEJUQGRpM4ZgoTbmERYciUSCdMkBWmw60uXfXY4lrS3818u9gzI2wKmI5YFP2kqAeJk5wjeVxvdD+dTBg==" length="43235031"
+                 type="application/octet-stream" />
+    </item>
+
     <language>en</language>
     <!-- ITEMS -->
     <item>
