@@ -11,6 +11,25 @@
     <link>https://anhvq25.github.io/moni-proxy-desktop/appcast.xml</link>
     <description>Moni Proxy macOS updates</description>
     <item>
+      <title>Version 1.3.5</title>
+      <pubDate>Mon, 29 Jun 2026 10:23:43 +0000</pubDate>
+      <sparkle:version>62</sparkle:version>
+      <sparkle:shortVersionString>1.3.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>What's new in 1.3.5</h3>
+        <ul>
+          <li>Per-API response delay — each Map Local mock can hold its response N seconds (right-click &rarr; Delay this URL, or set it in the mock editor).</li>
+          <li>Fix: HTTPS responses no longer hang after the TLS handshake.</li>
+          <li>Stability: benign "Connection reset by peer" events are swallowed instead of crashing.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.3.5/Moni-Proxy.dmg"
+                 sparkle:edSignature="O/y7ZKn/CGRVQuiToC6iLcMY5FT0GMLPaE+qmz+ADXL40EAzfTnyzTl9Ld2HmlGxuV5GWQ2WLmeJYYZYlVukAw==" length="43270027"
+                 type="application/octet-stream" />
+    </item>
+
+    <item>
       <title>Version 1.3.4</title>
       <pubDate>Sun, 28 Jun 2026 15:26:26 +0000</pubDate>
       <sparkle:version>60</sparkle:version>
