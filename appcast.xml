@@ -6,20 +6,23 @@
     <description>Moni Proxy macOS updates</description>
     <language>en</language>
     <item>
-      <title>Version 1.3.7</title>
-      <pubDate>Sun, 12 Jul 2026 15:00:42 +0000</pubDate>
-      <sparkle:version>69</sparkle:version>
-      <sparkle:shortVersionString>1.3.7</sparkle:shortVersionString>
+      <title>Version 1.4.1</title>
+      <pubDate>Sat, 15 Aug 2026 14:33:23 +0000</pubDate>
+      <sparkle:version>88</sparkle:version>
+      <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h3>What's new in 1.3.7</h3>
+        <h3>What's new in 1.4.1</h3>
         <ul>
-          <li>Fix: Map Local mocks now send the right Content-Type, so JSON mock responses are parsed by apps instead of shown as raw text.</li>
-          <li>Stability fixes.</li>
+          <li><b>Fix: quitting now turns the system proxy back off.</b> Closing or quitting Moni Proxy used to leave the macOS proxy pointing at a port that was no longer listening, which broke internet access for every app until you reset it by hand. Every exit route now cleans up, and if a previous run was force-quit or crashed, the next launch undoes it for you.</li>
+          <li><b>Environment variables</b> &mdash; define a value once and reuse it as <code>{{name}}</code> across mocks, rewrite rules and scripts; switch Dev / Staging / Prod in one tap.</li>
+          <li><b>Weak network simulation</b> &mdash; latency, bandwidth limits, packet loss or full offline, applied only to the URLs you choose. Presets for GPRS, 2G, 3G, 4G and Weak Wi-Fi. Off by default.</li>
+          <li><b>GraphQL</b> &mdash; the request list now shows each call's operation name instead of a column of identical <code>/graphql</code> rows.</li>
+          <li><b>Text Diff</b> &mdash; compare two payloads line by line with the changed characters highlighted (Tools &rarr; Text Diff).</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.3.7/Moni-Proxy.dmg"
-                 sparkle:edSignature="ll+COdWAa5bloX01AivUcuwCvXVCoTixUzCysx2jB9ETgvh89o69Dfz8+QPdDQXTfD4BETlhJutMsITUPGNDDw==" length="43296405"
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.4.1/Moni-Proxy.dmg"
+                 sparkle:edSignature="Z97gfSNIFgB8kIIVkDQByN1dFJFPc+MWCvTamiMUTE8QntZmcQIEEgi75MQrp89TV9RmqVgZ58VLA8BnZ5pKCw==" length="43535358"
                  type="application/octet-stream" />
     </item>
   </channel>
