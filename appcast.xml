@@ -5,29 +5,26 @@
     <link>https://anhvq25.github.io/moni-proxy-desktop/appcast.xml</link>
     <description>Moni Proxy macOS updates</description>
     <language>en</language>
+    <!-- ITEMS -->
     <item>
-      <title>Version 1.4.2</title>
-      <pubDate>Sun, 16 Aug 2026 12:20:00 +0000</pubDate>
-      <sparkle:version>89</sparkle:version>
-      <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
+      <title>Version 1.5.0</title>
+      <pubDate>Sat, 22 Aug 2026 09:27:48 +0000</pubDate>
+      <sparkle:version>93</sparkle:version>
+      <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h3>What's new in 1.4.2</h3>
+        <h3>What's new in 1.5.0</h3>
         <ul>
-          <li><b>Settings &rarr; About now shows your version and any pending update.</b> Dismissing the update banner no longer hides the update &mdash; "Version X is available" and an Update now button stay in Settings until you install it. The version number shown there is now the real one (it was stuck reading "v1.0").</li>
-          <li><b>Check for updates actually answers you.</b> It used to look dead when you were already up to date, because a "no update" result was handled silently. It now shows a spinner and then tells you the outcome, including when a check fails.</li>
-        </ul>
-        <h3>From 1.4.1</h3>
-        <ul>
-          <li><b>Fix: quitting turns the system proxy back off.</b> Closing or quitting Moni Proxy used to leave the macOS proxy pointing at a port that was no longer listening, which broke internet access for every app until you reset it by hand. Every exit route now cleans up, and a proxy left behind by a crash is undone on the next launch.</li>
-          <li><b>Environment variables</b> &mdash; define a value once and reuse it as <code>{{name}}</code> across mocks, rewrite rules and scripts; switch Dev / Staging / Prod in one tap.</li>
-          <li><b>Weak network simulation</b> &mdash; latency, bandwidth limits, packet loss or full offline, applied only to the URLs you choose. Presets for GPRS, 2G, 3G, 4G and Weak Wi-Fi. Off by default.</li>
-          <li><b>GraphQL</b> &mdash; the request list shows each call's operation name instead of a column of identical <code>/graphql</code> rows.</li>
-          <li><b>Text Diff</b> &mdash; compare two payloads line by line with the changed characters highlighted (Tools &rarr; Text Diff).</li>
+          <li><b>Android apps now show their real icons.</b> Traffic from a phone attached over adb used to fall back to coloured letter tiles. Moni Proxy now asks the device for each app's own launcher icon, so the sidebar and the app column look like your phone's home screen.</li>
+          <li><b>Protobuf responses are readable.</b> A binary protobuf body used to be a wall of hex. It now renders as an indented field tree, so captions, IDs and URLs inside it are visible at a glance. Field names stay numeric &mdash; protobuf doesn't carry them on the wire without a .proto.</li>
+          <li><b>Gzipped JSON shows as JSON.</b> Some servers label a gzipped JSON body as protobuf or octet-stream; those were hex-dumped even though they decoded cleanly. The body's actual bytes now decide, so mislabelled responses read properly while genuinely binary ones stay hex.</li>
+          <li><b>Save any response body.</b> The Raw tab has Copy and Save body, writing the original bytes with an extension that matches the encoding &mdash; useful for payloads the app can't decode on its own.</li>
+          <li><b>Config gallery lists every config.</b> A config published as a <code>.config</code> file was being filtered out of the gallery.</li>
+          <li>Also: <code>deflate</code> responses that use a real zlib header now decompress instead of falling back to raw bytes.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.4.2/Moni-Proxy.dmg"
-                 sparkle:edSignature="9SqFvB1XkUvUOH0oRiPB8BsT3JT0nKDFdbiEUY9Fx2JTOUzRRQ9dwSEebhjy5aUy7GO7kv9DlnaBWb3qHPMUAQ==" length="43357347"
+      <enclosure url="https://github.com/anhvq25/moni-proxy-desktop/releases/download/v1.5.0/Moni-Proxy.dmg"
+                 sparkle:edSignature="WVzpjnHzQplWK/doN/Y5vPWw2Do2r8l5Z8uwMQyExuWMuJb0vpYLZfyrIFhwyn+Up7cHmgywxiOCjusuuifXDw==" length="43629102"
                  type="application/octet-stream" />
     </item>
   </channel>
